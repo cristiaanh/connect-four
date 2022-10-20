@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 
-body {
+h1 {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: center;
 }
@@ -32,4 +32,14 @@ body {
     border-radius: 50%;
 
 
+}
+
+.reset{
+    position: absolute;
+    top: 95vh;
+    left: 50%;
+    transform: translate(-50%);
+    border: 1px solid black;
+    width: 5rem;
+    text-align: center;
 }
