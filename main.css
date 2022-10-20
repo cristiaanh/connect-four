@@ -1,14 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 body {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: center;
 }
 
-#board {
-    height: 540px;
-    width: 630px;
+.game {
+    height: 600px;
+    width: 650px;
     background-color: blue;
     border: 10px solid navy;
     margin: 0 auto;
     display: flex;
     flex-wrap: wrap;
+    position: absolute;
+    top: 4rem;
+    left: 50%;
+    transform: translate(-50%);
+    padding: 1.5rem;
+}
+
+.slot{
+    width: 90px;
+    height: 90px;
+    background: white;
+    border: 1px solid black;
+    border-radius: 50%;
+
+
 }
