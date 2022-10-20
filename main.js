@@ -1,5 +1,10 @@
-let tableRow = document.getElementsByTagName('tr');
-let tableCell = document.getElementsByTagName('td');
-let tableSlot = document.queryselector('.slot');
-const playerTurn = document.queryselector('.player-turn');
-const reset = document.querySelector('.reset');
+$(document).ready(function(){
+    var player = 1;
+    var winner = 0;
+    var colors = {};
+    colors[-1] = "yellow";
+    colors[1] = "red";
+    var count = 0;
+
+    $(".cell")
+});
