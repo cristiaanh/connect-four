@@ -1,3 +1,4 @@
+/*----- state variables -----*/
 $(document).ready(function(){
     var player = 1;
     var winner = 0;
@@ -5,7 +6,7 @@ $(document).ready(function(){
     colors[-1] = "yellow";
     colors[1] = "red";
     var count = 0;
-
+    /*----- functions -----*/
     $(".cell").each(function(){
         $(this).attr("id", count);
         $(this).attr("data-player", 0);
@@ -16,7 +17,7 @@ $(document).ready(function(){
                 $(this).css("background-color", colors[player]);
                 $(this).attr("data-player", player);
                 if(checkWin(player)){
-                    alert(colors[player] + "has won!");
+                    alert(colors[player] + " has won!");
                     winner = player;
                 }
                 player *= -1;
