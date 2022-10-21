@@ -52,13 +52,13 @@ PSEUDOCODE
 https://cristiaanh.github.io/connect-four/
 
 //screenshot
-<img src="game screen shot.png" />
+
 
 //instructions
 -click on a circle in the board with the intention of getting your color (either red, or yellow) four in a row. You can acheive four in a row diagonally, vertically, or horizontally. Once you get four in a row, you win.
 
 //future plans
--add background color and play around with font
+-add  better background and play around with font
 -add animation of chips falling into the board
 -make chips transparent
 -give the game a theme..halloween, christmas etc.
