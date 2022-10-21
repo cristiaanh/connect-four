@@ -56,7 +56,7 @@ PSEUDOCODE
 https://cristiaanh.github.io/connect-four/
 
 //screenshot
-![game screenshot](Game screenshot.png)
+![gamescreenshot]('Game screenshot.png')
 
 //instructions
 -click on a circle in the board with the intention of getting your color (either red, or yellow) four in a row. You can acheive four in a row diagonally, vertically, or horizontally. Once you get four in a row, you win.
