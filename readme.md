@@ -46,3 +46,10 @@ PSEUDOCODE
     -see where that chip is in relation to the other chips on the board
     -NEED EVENT LISTENER
 }
+
+//link
+https://cristiaanh.github.io/connect-four/
+
+//screenshot
+
+//t
