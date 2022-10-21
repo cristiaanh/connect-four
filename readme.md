@@ -9,7 +9,6 @@ Technologies
 -Javascript
 -HTML
 -CSS
--jquerey
 
 wire frame skecth 
 
@@ -19,14 +18,14 @@ PSEUDOCODE
 -HTML
 * Connect four as title at top of screen
 * the current player displayed directly under
-* A 6 by 7 connect four board with circles of the same dimension in the middle
+* A 6 by 7 connect four board with no holes
 
 
 -CSS
-*the color of the board should be blue
+*transparent board
 *the chips the player drops into the board should be yellow and Red 
-*the background should be black? or white? undecided
-*connect four and current player should display as red 
+*green background emulating chalkboard 
+*connect four and current player should display as white (chalk)
 
 
 -JAVASCRIPT
@@ -37,15 +36,20 @@ PSEUDOCODE
   }
 
 * function checkForWinner(){
-    -check if a row of four has been completed
-    -check if there is a tie
+    -check if a row of four has been completed horizontally
+    -check if row of four has been completed vertically
+    -check if row of four has been completed diagonally
+    -list out winning arrays
+    -give winning message when row of four has been completed
+
 
 }
 
 * function dropChip(){
     -check when each player has dropped there chip into the game board
     -see where that chip is in relation to the other chips on the board
-    -NEED EVENT LISTENER
+    -don't let a chip go in an innapropriate area of the board
+    -give alert message if chip is placed incorrectly on board
 }
 
 //link
