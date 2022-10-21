@@ -24,6 +24,19 @@ $(document).ready(function(){
         });
     });
 
+    $("#restart").click(function(){
+        clearBoard();
+    });
+
+    function clearBoard(){
+        $(".cell").each(function(){
+            $(this).attr("data-player", 0);
+            $(this).css("background-color", "white");
+
+            winner = 0;
+        });
+    }
+
     function isValid(n){
         var id = parseInt(n);
         if(winner !== 0){
